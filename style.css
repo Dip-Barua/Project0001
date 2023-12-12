@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'grandhotel'; /* Choose a name for your font */
+    src: url('assist//fonts/GrandHotel-Regular.ttf'),
+         url('assist//fonts/monstrat.ttf')
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333333 !important;
+  background-image: url(img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav a {
+  font-size: 25px;
+  color: #ffffff !important;
+  font-weight: 400;
+  font-family: "Montserrat";
+  display: block;
+  
+}
+nav a:hover {
+    font-size: 25px;
+    color: #f56d6d !important;
+    font-weight: 400;
+    font-family: "Montserrat";
+    display: block;
+    
+  }
+#navbarNav{
+    margin-right:80px !important;
+    display: flex;
+}
+
+li{
+    padding-right:5rem ;
+    
+}
+
+.logo{
+    margin-left: 50px;
+    
+}
+
+.hero{
+    background-color: white;
+}
+
+.src-icon{
+    color: white;
+
+}
+
+.title{
+    font-size:  150px ;
+color: #ffc200;
+font-weight: 400;
+font-family: "grandhotel";
+margin-top: 250px;
+}
+
+.subtitle{
+    width: 1310px;
+height: 210px;
+font-size: 30px;
+color: #d4d4d4;
+font-weight: 400;
+font-family: "Montserrat";
+}
+.btn{
+    width: 200px;
+    height: 50px;
+}
